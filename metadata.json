@@ -1,0 +1,6 @@
+{
+  "name": "Green Route",
+  "description": "Location-based recyclable waste coordination platform bridging households with local Kawadiwalas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ग्रीन रूट</string>
+    <string name="tagline">घरों को हरित भविष्य से जोड़ना</string>
+    <string name="core_message">कचरा तैयार है। अब कबाड़ीवाले को बताएं।</string>
+    <string name="mission_statement">हम उनके व्यवसाय को नहीं बदलते। हम बस कबाड़ को उस व्यक्ति से जोड़ते हैं जो पहले से उसकी तलाश में है — और अब हम परिवार को भी चुनने का विकल्प देते हैं।</string>
+
+    <!-- Role selection -->
+    <string name="who_are_you">आप कौन हैं?</string>
+    <string name="role_household">घर / परिवार</string>
+    <string name="role_kawadiwala">कबाड़ीवाला</string>
+    <string name="role_household_desc">स्थानीय पिकअप के लिए पुनर्चक्रण योग्य कचरा उपलब्ध कराएं</string>
+    <string name="role_kawadiwala_desc">नक्शे पर आसपास का कबाड़ खोजें और पिकअप का समन्वय करें</string>
+
+    <!-- Authentication -->
+    <string name="login">लॉग इन करें</string>
+    <string name="register">पंजीकरण करें</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="email">ईमेल पता</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="select_role">अपनी भूमिका चुनें</string>
+    <string name="dont_have_account">खाता नहीं है? पंजीकरण करें</string>
+    <string name="already_have_account">पहले से खाता है? लॉग इन करें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="logging_in">लॉग इन हो रहा है…</string>
+    <string name="creating_account">खाता बनाया जा रहा है…</string>
+    <string name="error_empty_fields">कृपया सभी आवश्यक फ़ील्ड भरें</string>
+    <string name="error_password_mismatch">पासवर्ड मेल नहीं खा रहे हैं</string>
+    <string name="error_password_weak">पासवर्ड कम से कम 6 अक्षरों का होना चाहिए</string>
+    <string name="error_invalid_email">कृपया एक मान्य ईमेल दर्ज करें</string>
+    <string name="auth_failed">प्रमाणीकरण विफल रहा। कृपया अपनी साख जांचें।</string>
+
+    <!-- Household Dashboard -->
+    <string name="household_dashboard">परिवार डैशबोर्ड</string>
+    <string name="make_waste_available">कचरा उपलब्ध कराएं</string>
+    <string name="select_recyclable_waste">पुनर्चक्रण योग्य कचरा चुनें</string>
+    <string name="quantity_optional">मात्रा / वजन (वैकल्पिक)</string>
+    <string name="add_photo_optional">फोटो जोड़ें (वैकल्पिक)</string>
+    <string name="available_for_pickup">उपलब्ध है</string>
+    <string name="my_availability">मेरी उपलब्धता</string>
+    <string name="no_active_availability">वर्तमान में कोई सक्रिय कचरा उपलब्धता नहीं है।</string>
+    <string name="remove_availability">उपलब्धता हटाएं</string>
+    <string name="received_requests">प्राप्त अनुरोध</string>
+    <string name="no_requests_yet">अभी तक कोई पिकअप अनुरोध प्राप्त नहीं हुआ है।</string>
+    <string name="accept">स्वीकार करें</string>
+    <string name="accepted">स्वीकृत</string>
+    <string name="booked">बुक किया गया</string>
+    <string name="expires_in">%1$s में समाप्त होगा</string>
+    <string name="location_captured">स्थान: %1$.4f, %2$.4f</string>
+    <string name="available_status">स्थिति: 24 घंटे के लिए उपलब्ध</string>
+    <string name="removed_status">स्थिति: हटा दिया गया</string>
+    <string name="expired_status">स्थिति: समाप्त हो गया</string>
+    <string name="success_availability_created">कचरा अब 24 घंटे के लिए कबाड़ीवाला स्क्रैप मानचित्र पर उपलब्ध है!</string>
+    <string name="success_request_accepted">अनुरोध स्वीकार कर लिया गया! कबाड़ीवाले को सूचित कर दिया गया है।</string>
+    <string name="error_select_at_least_one">कृपया कम से कम एक कचरा श्रेणी चुनें।</string>
+    <string name="error_location_required">कचरा उपलब्ध कराने के लिए स्थान की अनुमति आवश्यक है।</string>
+    <string name="saving_availability">उपलब्धता सहेजी जा रही है…</string>
+    <string name="accepting_request">अनुरोध स्वीकार किया जा रहा है…</string>
+    <string name="photo_attached">फोटो संलग्न है</string>
+    <string name="change_photo">फोटो बदलें</string>
+
+    <!-- Waste Categories -->
+    <string name="waste_plastic">प्लास्टिक</string>
+    <string name="waste_glass">कांच (ग्लास)</string>
+    <string name="waste_iron">लोहा (आयरन)</string>
+    <string name="waste_metal">धातु (मेटल)</string>
+    <string name="waste_fridge">फ्रिज</string>
+    <string name="waste_tv">टीवी</string>
+    <string name="waste_electronics">इलेक्ट्रॉनिक्स</string>
+    <string name="waste_paper">कागज (रद्दी)</string>
+    <string name="waste_other">अन्य पुनर्चक्रण योग्य सामग्री</string>
+
+    <!-- Kawadiwala Dashboard -->
+    <string name="kawadiwala_dashboard">कबाड़ीवाला डैशबोर्ड</string>
+    <string name="green_route_scrap_map">ग्रीन रूट स्क्रैप मैप</string>
+    <string name="pickups_available_count">%1$d पिकअप स्थान उपलब्ध हैं</string>
+    <string name="demo_locality">डेमो इलाका: राजपुर सोनारपुर, कोलकाता</string>
+    <string name="nav_map">मानचित्र</string>
+    <string name="nav_requests">अनुरोध</string>
+    <string name="nav_notifications">सूचनाएं</string>
+    <string name="nav_market">बाजार</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+    <string name="household_waste">घर का कचरा</string>
+    <string name="offers_section">प्रस्ताव (दाम)</string>
+    <string name="offer_hint">₹ में प्रस्ताव</string>
+    <string name="estimated_arrival">अनुमानित आगमन समय</string>
+    <string name="arrival_1_hour">1 घंटा</string>
+    <string name="arrival_2_hours">2 घंटे</string>
+    <string name="arrival_3_hours">3 घंटे</string>
+    <string name="send_request">अनुरोध भेजें</string>
+    <string name="submitting_request">अनुरोध भेजा जा रहा है…</string>
+    <string name="booked_by_you">आपके द्वारा बुक किया गया</string>
+    <string name="error_invalid_offer">कृपया कचरा वस्तुओं के लिए मान्य प्रस्ताव राशि दर्ज करें।</string>
+    <string name="error_select_arrival">कृपया अनुमानित आगमन समय चुनें।</string>
+    <string name="request_submitted_success">अनुरोध सफलतापूर्वक घर को भेज दिया गया!</string>
+    <string name="already_requested">आप पहले ही इस स्थान के लिए अनुरोध भेज चुके हैं।</string>
+
+    <!-- Kawadiwala Requests Screen -->
+    <string name="my_requests">मेरे भेजे गए अनुरोध</string>
+    <string name="no_sent_requests">आपने अभी तक कोई पिकअप अनुरोध नहीं भेजा है।</string>
+    <string name="status_pending">लंबित (PENDING)</string>
+    <string name="status_accepted">स्वीकृत (ACCEPTED)</string>
+    <string name="status_rejected">अस्वीकृत / बंद</string>
+    <string name="status_withdrawn">वापस लिया गया</string>
+    <string name="status_expired">समाप्त (EXPIRED)</string>
+    <string name="arrival_time_label">अनुमानित आगमन: %1$d घंटा</string>
+    <string name="submitted_at">प्रस्तुत: %1$s</string>
+
+    <!-- Market Details -->
+    <string name="market_details">बाजार मूल्य विवरण</string>
+    <string name="market_disclaimer">कीमतें अनुमानित हैं और स्थान, सामग्री की गुणवत्ता और बाजार की स्थितियों के आधार पर भिन्न हो सकती हैं।</string>
+    <string name="recycling_companies">सत्यापित रीसाइक्लिंग भागीदार एवं केंद्र</string>
+    <string name="approx_price">अनुमानित सांकेतिक मूल्य</string>
+    <string name="per_kg">/ किग्रा</string>
+    <string name="per_unit">/ नग</string>
+
+    <!-- Notifications -->
+    <string name="notifications">सूचनाएं</string>
+    <string name="no_notifications">इस समय कोई नई सूचना नहीं है।</string>
+
+    <!-- Profile -->
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="language">भाषा (Language)</string>
+    <string name="language_selector_title">भाषा चुनें</string>
+    <string name="english">English (अंग्रेज़ी)</string>
+    <string name="hindi">हिंदी (Hindi)</string>
+    <string name="bengali">বাংলা (बंगाली)</string>
+
+    <!-- Common & States -->
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="loading_pickups">उपलब्ध पिकअप लोड हो रहे हैं…</string>
+    <string name="empty_pickups">आसपास वर्तमान में कोई पुनर्चक्रण योग्य कचरा उपलब्ध नहीं है।</string>
+    <string name="error_pickups">पिकअप स्थान लोड करने में असमर्थ। कृपया पुन: प्रयास करें।</string>
+    <string name="map_error_message">मानचित्र लोड नहीं हो सका। कृपया इंटरनेट कनेक्शन या Google Maps कॉन्फ़िगरेशन जांचें।</string>
+    <string name="location_permission_explanation">आपके वर्तमान स्थान का उपयोग करने और कचरा उपलब्धता समन्वय के लिए स्थान की अनुमति आवश्यक है।</string>
+    <string name="grant_permission">अनुमति दें</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="close">बंद करें</string>
+    <string name="quantity_label">मात्रा: %1$s</string>
+    <string name="offer_label">प्रस्ताव: ₹%1$s</string>
+    <string name="approx_label">अनुमानित मूल्य: ₹%1$s %2$s</string>
+    <string name="visit_website">आधिकारिक वेबसाइट देखें</string>
+
+    <!-- Booked Location Tracking & Navigation -->
+    <string name="track_location">स्थान ट्रैक करें</string>
+    <string name="start_navigation">नेविगेशन शुरू करें</string>
+    <string name="stop_navigation">नेविगेशन रोकें</string>
+    <string name="navigation_active">नेविगेशन सक्रिय है</string>
+    <string name="booked_pickup">बुक किया गया पिकअप</string>
+    <string name="booked_location_title">बुक किया गया स्थान</string>
+    <string name="active_booked_pickups">सक्रिय बुक किए गए पिकअप</string>
+    <string name="distance_label">दूरी</string>
+    <string name="eta_label">अनुमानित समय</string>
+    <string name="calculating_route">रास्ता निकाला जा रहा है…</string>
+    <string name="route_error">रास्ता निकालने में असमर्थ। कृपया पुनः प्रयास करें।</string>
+    <string name="gps_disabled">नेविगेट करने के लिए कृपया लोकेशन सेवाएं चालू करें।</string>
+    <string name="location_permission_required">आपकी वर्तमान स्थिति दिखाने के लिए स्थान की अनुमति आवश्यक है।</string>
+    <string name="pickup_expired">यह पिकअप स्थान अब उपलब्ध नहीं है।</string>
+    <string name="access_denied_pickup">पहुंच अस्वीकृत: आप इस बुक किए गए पिकअप के लिए स्वीकृत कबाड़ीवाले नहीं हैं।</string>
+    <string name="mark_as_arrived">पहुंच गए चिह्नित करें</string>
+    <string name="arrived_title">गंतव्य पर पहुंच गए</string>
+    <string name="arrived_message">आप पिकअप स्थान पर पहुंच गए हैं। अपने लेनदेन को आगे बढ़ाने के लिए परिवार के साथ कचरे की जांच करें।</string>
+    <string name="understood">समझ गया</string>
+    <string name="back_to_map">मानचित्र पर वापस</string>
+    <string name="recenter">पुनः केंद्रित करें</string>
+    <string name="real_road_guidance">वास्तविक सड़क नेविगेशन मार्गदर्शन</string>
+
+    <!-- Pickup Completion -->
+    <string name="picked_up">उठा लिया (PICKED UP)</string>
+    <string name="status_picked_up">स्थिति: उठा लिया गया</string>
+    <string name="status_completed">स्थिति: पूर्ण</string>
+    <string name="pickup_completed_success">कचरा पिकअप सफलतापूर्वक पूरा हुआ।</string>
+    <string name="pickup_completed_failed">पिकअप पूरा करने में असमर्थ। कृपया पुन: प्रयास करें।</string>
+    <string name="confirm_picked_up_title">कचरा पिकअप की पुष्टि करें</string>
+    <string name="confirm_picked_up_message">क्या आपने इस घर से पुनर्चक्रण योग्य कचरा एकत्र कर लिया है? यह पिकअप पूरा कर देगा और इस स्थान को आपके सक्रिय मानचित्र से हटा देगा।</string>
+    <string name="completing_pickup">पिकअप पूरा किया जा रहा है…</string>
+
+    <!-- Theme Switch -->
+    <string name="theme">थीम</string>
+    <string name="light_theme">लाइट थीम</string>
+    <string name="dark_theme">डार्क थीम</string>
+    <string name="light">लाइट</string>
+    <string name="dark">डार्क</string>
+    <string name="theme_toggle">थीम बदलें</string>
+
+    <!-- Location Options -->
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="custom_location">कस्टम स्थान</string>
+    <string name="select_waste_location">कचरा स्थान चुनें</string>
+    <string name="move_pin">सटीक कचरा स्थान निर्धारित करने के लिए पिन को ले जाएं या मानचित्र पर टैप करें</string>
+    <string name="use_this_location">इस स्थान का उपयोग करें</string>
+    <string name="waste_pickup_location">कचरा पिकअप स्थान</string>
+    <string name="waste_location_pinned">कचरे का स्थान: %1$.4f, %2$.4f</string>
+    <string name="select_a_location">कृपया मानचित्र पर एक मान्य स्थान चुनें।</string>
+    <string name="confirm_location">स्थान की पुष्टि करें</string>
+    <string name="change_location">स्थान बदलें</string>
+    <string name="open_map_pin">मानचित्र खोलें और स्थान पिन करें</string>
+    <string name="recenter_to_gps">मेरा GPS स्थान</string>
+
+    <!-- Availability Removal & Cancellation -->
+    <string name="remove_waste">कचरा हटाएं</string>
+    <string name="remove_button">हटाएं</string>
+    <string name="cancel_pickup">पिकअप रद्द करें</string>
+    <string name="are_you_sure">क्या आप सुनिश्चित हैं?</string>
+    <string name="confirm_remove_availability_title">क्या यह कचरा उपलब्धता हटाना चाहते हैं?</string>
+    <string name="confirm_remove_availability_msg">इस कचरा उपलब्धता को हटाने से यह सभी कबाड़ीवाला मानचित्रों से हट जाएगी और अनुरोध प्राप्त होना बंद हो जाएगा।</string>
+    <string name="confirm_cancel_booked_msg">यह पिकअप पहले से बुक है। इसे हटाने से पिकअप अनुरोध/बुकिंग रद्द हो जाएगी और कबाड़ीवाले को सूचित किया जाएगा। क्या आप जारी रखना चाहते हैं?</string>
+    <string name="pickup_cancelled">पिकअप रद्द हुआ</string>
+    <string name="location_removed">कचरा उपलब्धता हटा दी गई</string>
+    <string name="status_cancelled">स्थिति: रद्द</string>
+</resources>

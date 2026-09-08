@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Green Route</string>
+    <string name="tagline">Bridging Homes to a Greener Future</string>
+    <string name="core_message">Waste Is Ready. Now Let the Kawadiwala Know.</string>
+    <string name="mission_statement">We don\'t change their business. We simply connect the waste with the person who is already looking for it — and now we also give the household a choice.</string>
+
+    <!-- Role selection -->
+    <string name="who_are_you">WHO ARE YOU?</string>
+    <string name="role_household">HOUSEHOLD</string>
+    <string name="role_kawadiwala">KAWADIWALA</string>
+    <string name="role_household_desc">Make recyclable waste available for local pickup</string>
+    <string name="role_kawadiwala_desc">Discover nearby waste and coordinate pickups on the map</string>
+
+    <!-- Authentication -->
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_role">Select Your Role</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="logging_in">Logging in…</string>
+    <string name="creating_account">Creating account…</string>
+    <string name="error_empty_fields">Please fill in all required fields</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_password_weak">Password should be at least 6 characters</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="auth_failed">Authentication failed. Please check your credentials.</string>
+
+    <!-- Household Dashboard -->
+    <string name="household_dashboard">Household Dashboard</string>
+    <string name="make_waste_available">MAKE WASTE AVAILABLE</string>
+    <string name="select_recyclable_waste">Select Recyclable Waste</string>
+    <string name="quantity_optional">Quantity / Weight (Optional)</string>
+    <string name="add_photo_optional">Add Photo (Optional)</string>
+    <string name="available_for_pickup">AVAILABLE</string>
+    <string name="my_availability">My Availability</string>
+    <string name="no_active_availability">No active waste availability right now.</string>
+    <string name="remove_availability">REMOVE AVAILABILITY</string>
+    <string name="received_requests">Received Requests</string>
+    <string name="no_requests_yet">No pickup requests received yet.</string>
+    <string name="accept">ACCEPT</string>
+    <string name="accepted">ACCEPTED</string>
+    <string name="booked">BOOKED</string>
+    <string name="expires_in">Expires in %1$s</string>
+    <string name="location_captured">Location: %1$.4f, %2$.4f</string>
+    <string name="available_status">Status: Available for 24 Hours</string>
+    <string name="removed_status">Status: Removed</string>
+    <string name="expired_status">Status: Expired</string>
+    <string name="success_availability_created">Waste is now available on Kawadiwala scrap map for 24 hours!</string>
+    <string name="success_request_accepted">Request accepted! Kawadiwala has been notified.</string>
+    <string name="error_select_at_least_one">Please select at least one waste category.</string>
+    <string name="error_location_required">Location permission is required to make waste available.</string>
+    <string name="saving_availability">Saving availability…</string>
+    <string name="accepting_request">Accepting request…</string>
+    <string name="photo_attached">Photo attached</string>
+    <string name="change_photo">Change Photo</string>
+
+    <!-- Waste Categories -->
+    <string name="waste_plastic">Plastic</string>
+    <string name="waste_glass">Glass</string>
+    <string name="waste_iron">Iron</string>
+    <string name="waste_metal">Metal</string>
+    <string name="waste_fridge">Fridge</string>
+    <string name="waste_tv">TV</string>
+    <string name="waste_electronics">Electronics</string>
+    <string name="waste_paper">Paper</string>
+    <string name="waste_other">Other recyclable waste</string>
+
+    <!-- Kawadiwala Dashboard -->
+    <string name="kawadiwala_dashboard">Kawadiwala Dashboard</string>
+    <string name="green_route_scrap_map">GREEN ROUTE SCRAP MAP</string>
+    <string name="pickups_available_count">%1$d pickup locations available</string>
+    <string name="demo_locality">Demo Locality: Rajpur Sonarpur, Kolkata</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_requests">Requests</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_market">Market</string>
+    <string name="nav_profile">Profile</string>
+    <string name="household_waste">HOUSEHOLD WASTE</string>
+    <string name="offers_section">OFFERS</string>
+    <string name="offer_hint">Offer in ₹</string>
+    <string name="estimated_arrival">Estimated Arrival</string>
+    <string name="arrival_1_hour">1 Hour</string>
+    <string name="arrival_2_hours">2 Hours</string>
+    <string name="arrival_3_hours">3 Hours</string>
+    <string name="send_request">SEND REQUEST</string>
+    <string name="submitting_request">Submitting request…</string>
+    <string name="booked_by_you">Booked by You</string>
+    <string name="error_invalid_offer">Please enter valid offer amounts for the waste items.</string>
+    <string name="error_select_arrival">Please select an estimated arrival time.</string>
+    <string name="request_submitted_success">Request sent to household successfully!</string>
+    <string name="already_requested">You have already submitted a request for this location.</string>
+
+    <!-- Kawadiwala Requests Screen -->
+    <string name="my_requests">My Sent Requests</string>
+    <string name="no_sent_requests">You have not submitted any pickup requests yet.</string>
+    <string name="status_pending">PENDING</string>
+    <string name="status_accepted">ACCEPTED</string>
+    <string name="status_rejected">REJECTED / CLOSED</string>
+    <string name="status_withdrawn">WITHDRAWN</string>
+    <string name="status_expired">EXPIRED</string>
+    <string name="arrival_time_label">Est. Arrival: %1$d Hour(s)</string>
+    <string name="submitted_at">Submitted: %1$s</string>
+
+    <!-- Market Details -->
+    <string name="market_details">Market Details</string>
+    <string name="market_disclaimer">Prices are approximate and may vary based on location, material quality and current market conditions.</string>
+    <string name="recycling_companies">Verified Recycling Partners &amp; Facilities</string>
+    <string name="approx_price">Approx. Indicative Price</string>
+    <string name="per_kg">/ kg</string>
+    <string name="per_unit">/ unit</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="no_notifications">No notifications at this time.</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="language">Language</string>
+    <string name="language_selector_title">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी (Hindi)</string>
+    <string name="bengali">বাংলা (Bengali)</string>
+
+    <!-- Common & States -->
+    <string name="loading">Loading…</string>
+    <string name="loading_pickups">Loading available pickups…</string>
+    <string name="empty_pickups">No recyclable waste is currently available nearby.</string>
+    <string name="error_pickups">Unable to load pickup locations. Please try again.</string>
+    <string name="map_error_message">Map could not be loaded. Please check your internet connection or Google Maps configuration.</string>
+    <string name="location_permission_explanation">Location permission is required to use your current location and coordinate waste availability.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="quantity_label">Quantity: %1$s</string>
+    <string name="offer_label">Offer: ₹%1$s</string>
+    <string name="approx_label">Approx. Price: ₹%1$s %2$s</string>
+    <string name="visit_website">Visit Official Website</string>
+
+    <!-- Booked Location Tracking & Navigation -->
+    <string name="track_location">TRACK LOCATION</string>
+    <string name="start_navigation">START NAVIGATION</string>
+    <string name="stop_navigation">STOP NAVIGATION</string>
+    <string name="navigation_active">Navigation Active</string>
+    <string name="booked_pickup">BOOKED PICKUP</string>
+    <string name="booked_location_title">Booked Location</string>
+    <string name="active_booked_pickups">Active Booked Pickups</string>
+    <string name="distance_label">Distance</string>
+    <string name="eta_label">ETA</string>
+    <string name="calculating_route">Calculating route…</string>
+    <string name="route_error">Unable to calculate route. Please try again.</string>
+    <string name="gps_disabled">Please turn on location services to navigate.</string>
+    <string name="location_permission_required">Location permission is required to show your current position.</string>
+    <string name="pickup_expired">This pickup location is no longer available.</string>
+    <string name="access_denied_pickup">Access Denied: You are not the accepted Kawadiwala for this booked pickup.</string>
+    <string name="mark_as_arrived">MARK AS ARRIVED</string>
+    <string name="arrived_title">You have reached the pickup location.</string>
+    <string name="arrived_message">You have reached the pickup location. Collect the recyclable waste from the household and tap PICKED UP to complete the pickup.</string>
+    <string name="understood">Understood</string>
+    <string name="back_to_map">Back to Map</string>
+    <string name="recenter">Recenter</string>
+    <string name="real_road_guidance">Real Road Navigation Guidance</string>
+
+    <!-- Pickup Completion -->
+    <string name="picked_up">PICKED UP</string>
+    <string name="status_picked_up">Status: Picked Up</string>
+    <string name="status_completed">Status: Completed</string>
+    <string name="pickup_completed_success">Pickup completed successfully.</string>
+    <string name="pickup_completed_failed">Unable to complete pickup. Please try again.</string>
+    <string name="confirm_picked_up_title">Confirm Waste Pickup</string>
+    <string name="confirm_picked_up_message">Have you collected the recyclable waste from this household? This will complete the pickup and remove this location from your active map.</string>
+    <string name="completing_pickup">Completing pickup…</string>
+
+    <!-- Theme Switch -->
+    <string name="theme">Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="theme_toggle">Toggle Theme</string>
+
+    <!-- Location Options -->
+    <string name="current_location">Current Location</string>
+    <string name="custom_location">Custom Location</string>
+    <string name="select_waste_location">Select Waste Location</string>
+    <string name="move_pin">Move pin or tap map to set exact waste location</string>
+    <string name="use_this_location">USE THIS LOCATION</string>
+    <string name="waste_pickup_location">Waste Pickup Location</string>
+    <string name="waste_location_pinned">Waste Location: %1$.4f, %2$.4f</string>
+    <string name="select_a_location">Please select a valid location on the map.</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="change_location">Change Location</string>
+    <string name="open_map_pin">Open Map &amp; Pin Waste Location</string>
+    <string name="recenter_to_gps">My GPS Location</string>
+
+    <!-- Availability Removal & Cancellation -->
+    <string name="remove_waste">Remove Waste</string>
+    <string name="remove_button">REMOVE</string>
+    <string name="cancel_pickup">Cancel Pickup</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="confirm_remove_availability_title">Remove this waste availability?</string>
+    <string name="confirm_remove_availability_msg">Removing this waste availability will remove it from all Kawadiwala maps and stop receiving requests.</string>
+    <string name="confirm_cancel_booked_msg">This pickup is already booked. Removing it will cancel the pickup request/booking and notify the Kawadiwala. Do you want to continue?</string>
+    <string name="pickup_cancelled">Pickup cancelled</string>
+    <string name="location_removed">Waste availability removed</string>
+    <string name="status_cancelled">Status: Cancelled</string>
+</resources>
