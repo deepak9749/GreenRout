@@ -35,7 +35,7 @@
     <string name="make_waste_available">MAKE WASTE AVAILABLE</string>
     <string name="select_recyclable_waste">Select Recyclable Waste</string>
     <string name="quantity_optional">Quantity / Weight (Optional)</string>
-    <string name="add_photo_optional">Add Photo (Optional)</string>
+    <string name="add_photo_optional">Upload Waste Photo</string>
     <string name="available_for_pickup">AVAILABLE</string>
     <string name="my_availability">My Availability</string>
     <string name="no_active_availability">No active waste availability right now.</string>
